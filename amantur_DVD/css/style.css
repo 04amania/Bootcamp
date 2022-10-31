@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+  }
+  .dvdblock {
+    width: 80px;
+    height: 80px;
+    color: chocolate;
+  }
+  .box {
+    width: 80px;
+    height: 40px;
+    background-color: green;
+    position: relative;
+    text-transform: uppercase;
+    animation-name: dvd;
+    animation-duration: 1s;
+    animation: dvd 15s 4;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  @keyframes dvd {
+    0% {
+      background-color: green;
+      left: 400px;
+      top: 0px;
+    }
+    25% {
+      background-color: red;
+      left: 1250px;
+      top: 100px;
+    }
+    50% {
+      background-color: aqua;
+      left: 400px;
+      top: 0px;
+    }
+    75% {
+      background-color: blue;
+      left: 0px;
+      top: 400px;
+    }
+    100% {
+      background-color: yellow;
+      left: 400px;
+      top: 0;
+    }
+  }

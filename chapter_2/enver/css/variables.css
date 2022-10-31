@@ -1,0 +1,16 @@
+:root{
+    /* Font family */
+    --main-family: 'Nunito Sans', sans-serif;
+    --headers-family: "Open Sans", sans-serif;
+    
+    /* Font sizes */
+    --nav-size: 18px;
+    --section-title-size: 60px;
+    --main-size: 20px;
+    --service-title-size: 28px;
+
+    /* colors */
+    --main-color: #ffffff;
+    --secondary-color:  #ffffffb2;
+    --primery-color:  #5454d4;
+}

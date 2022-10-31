@@ -1,0 +1,369 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Open+Sans:wght@700&display=swap");
+
+body {
+  margin: 0;
+  position: relative;
+  background-color: #19191b;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.wrapper {
+  max-width: 1350px;
+  margin: 0 auto;
+}
+/* Header style start */
+.header__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  padding-top: 50px;
+}
+.header__list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 320px;
+}
+.header__item {
+  margin-right: 50px;
+  list-style-type: none;
+  font-family: "Nunito Sans";
+}
+.search input{
+  margin-bottom: 15px;
+  margin-left: 80.62%;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid var(--main-color);   
+  width: 165px;
+  height: 28px;
+  color: var(--main-color);
+  
+}
+.header__item:last-child {
+  margin-right: o;
+}
+.header__link {
+  font-size: 18px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+}
+.intro {
+  height: 100vh;
+}
+.intro__title {
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 84px;
+  color: white;
+  margin-bottom: 24px;
+  font-family: "Open Sans";
+}
+.intro__subtitle {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 18px;
+  line-height: 39px;
+  margin-bottom: 50px;
+  font-family: "Nunito Sans";
+}
+.submit {
+  width: 204px;
+  height: 58px;
+  background: #5454d4;
+  border-radius: 4px;
+  border: 0;
+
+  font-family: "Nunito Sans";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+
+  background-image: url(../img/Icon.svg);
+  background-repeat: no-repeat;
+  background-size: 12px 12px;
+  background-position: 24px;
+  background-position: 170px;
+}
+.icon {
+  position: absolute;
+  left: 385px;
+  top: 718px;
+  width: 12px;
+  height: 12px;
+}
+.man {
+  background-size: cover;
+  background: url("../img/man.png");
+  width: 655px;
+  height: 712px;
+  padding-left: 60px;
+  margin-left: 140px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.vec1 {
+  position: absolute;
+  width: 95px;
+  height: 28px;
+  left: 716px;
+  top: 231px;
+}
+.vec2 {
+  position: absolute;
+  width: 51px;
+  height: 60px;
+  left: 1319px;
+  top: 184px;
+}
+.vec3 {
+  position: absolute;
+  width: 104.66px;
+  height: 120.07px;
+  left: 670.4px;
+  top: 666px;
+}
+.vec4 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 137 3px;
+  top: 716px;
+}
+.aman2 {
+  position: absolute;
+  width: 695px;
+  height: 140px;
+  left: 492px;
+  top: 950px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 70px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.header__icon {
+  position: absolute;
+  width: 69px;
+  height: 69px;
+  left: 305px;
+  top: 1188px;
+  border-radius: 50%;
+  background: rgba(84, 84, 212, 0.1);
+}
+
+.flex-mid-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 190px;
+}
+.flex-mid-22 {
+  width: 440px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 150px;
+}
+.flex-mid-22 div {
+  height: 69px;
+  width: 69px;
+  margin-left: 190px;
+}
+.png_png1 {
+  background-image: url("../img/development.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.png_png2{
+  background-image: url("../img/IU.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.png_png3{
+  background-image: url("../img/graphik\ .png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.png_png4{
+  background-image: url("../img/motion.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.png_png5{
+  background-image: url("../img/photography.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.png_png6{
+  background-image: url("../img/videography.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.png__img1 {
+  width: 100px;
+  height: 100px;
+  color: white;
+  font-family: "Nunito Sans";
+  font-size: 28px;
+} 
+.png__img1_1 {
+  font-family: "Nunito Sans";
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+.png__img2 {
+  width: 100px;
+  height: 100px;
+  color: white;
+  font-family: "Nunito Sans";
+  font-size: 28px;
+  
+}
+.png__img1_2 {
+  font-family: "Nunito Sans";
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+.png__img3 {
+  width: 100px;
+  height: 100px;
+  color: white;
+  font-family: "Nunito Sans";
+  font-size: 28px;
+  
+}
+.png__img1_3 {
+  font-family: "Nunito Sans";
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+.png__img4 {
+  width: 100px;
+  height: 100px;
+  color: white;
+  font-family: "Nunito Sans";
+  font-size: 28px;
+  
+}
+.png__img1_4 {
+  font-family: "Nunito Sans";
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+.png__img5 {
+  width: 100px;
+  height: 100px;
+  color: white;
+  font-family: "Nunito Sans";
+  font-size: 28px;
+}
+.png__img1_5 {
+  font-family: "Nunito Sans";
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+.png__img6 {
+  width: 100px;
+  height: 100px;
+  color: white;
+  font-family: "Nunito Sans";
+  font-size: 28px;
+  
+}
+.png__img1_6 {
+  font-family: "Nunito Sans";
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+
+.aman3{
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 60px;
+  color: #FFFFFF;
+
+}
+.foto-img{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 100px;
+}
+.foto-img-1{
+  width: 336px;
+  height: 253px;
+  position: relative;
+  left: -300px;
+  margin-bottom: 190px;
+}
+.png__img01{
+  background-image: url("../img/sqd.png");
+  background-size: cover;
+  width: 420px;
+  height: 330px;
+}
+.foto-img-2{
+  width: 323  px;
+  height: 253px;
+  margin-bottom: 150px;
+}
+.png__img02{
+  background-image: url("../img/sqd2.png");
+  background-size: cover;
+  position: absolute;
+  width: 420px;
+  height: 330px;
+  left: 680px;
+  top: 2260px;
+}
+.foto-img-3{
+  width: 323px;
+  height: 253px;
+  margin-bottom: 160px;
+  margin-left: 94px;
+  margin-top: 165px;
+}
+.png__img03{
+  background-image: url("../img/sqd3.png");
+  background-size: cover;
+  position: absolute;
+  width: 420px;
+  height: 330px;
+  left: 1149px;
+
+}
+.aman4{
+  width: 826px;
+  height: 164px;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 60px;
+  color: #FFFFFF;
+}
